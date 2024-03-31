@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "spinup": "docker-compose -f docker-compose-pg-only.yml up",
-    "spindown": "docker-compose down"
+    "spindown": "docker-compose -f docker-compose-pg-only.yml down --volumes"
   },
   "dependencies": {
     "next": "14.1.4",
